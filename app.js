@@ -41,7 +41,7 @@ function userFlash(btn) {
 function levelUp() {
     userseq = [];
     level++;
-    h2.innerText = `Level ${level}`;
+    h2.innerText = `Your score: ${level}`;
     highscore();
     let randidx = Math.floor(Math.random() * btns.length);
     let randColor = btns[randidx];
