@@ -43,7 +43,7 @@ function levelUp() {
     level++;
     h2.innerText = `Level ${level}`;
     highscore();
-    let randidx = Math.floor(Math.random() * 3);
+    let randidx = Math.floor(Math.random() * btns.length);
     let randColor = btns[randidx];
 
     for (let i = 0; i < gameseq.length; i++) {
