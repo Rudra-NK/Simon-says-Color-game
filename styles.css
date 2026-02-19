@@ -1,0 +1,87 @@
+body {
+    text-align: center;
+    background-color: antiquewhite;
+}
+
+.btn {
+    height: 10rem;
+    width: 10rem;
+    border: 3.5px solid black;
+    border-radius: 25%;
+    margin: 1rem;
+}
+
+.btn-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.one {
+    background-color: rgb(209, 77, 77);
+}
+
+.two {
+    background-color: darkcyan;
+}
+
+.three {
+    background-color: rgb(148, 55, 236);
+}
+
+.four {
+    background-color: rgb(226, 136, 52);
+}
+
+.flash {
+    background-color: whitesmoke;
+    transform: scale(1.01);
+    box-shadow: 0 0 15px darkcyan;
+    border: 3.5px solid whitesmoke;
+}
+
+.green {
+    background-color: rgb(27, 163, 27);
+    transform: scale(1.01);
+    box-shadow: 0 0 15px darkcyan;
+    border: 3.5px solid rgb(27, 163, 27);
+}
+
+.red {
+    height: 3rem;
+    width: 15rem;
+    background-color: chocolate;
+}
+
+p {
+    position: fixed;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 16px;
+    color: #333;
+    background-color: rgba(255, 255, 255, 0.6);
+    padding: 8px 13px;
+    border-radius: 20px;
+    opacity: 0.8;
+}
+
+button {
+    height: 3rem;
+    width: 7rem;
+    border-radius: 1rem;
+    border: none;
+    background-color: burlywood;
+    color: black;
+    font-size: 1.1rem;
+    line-height: 1rem;
+    box-shadow: 0 0 30px rgb(229, 173, 99);
+    letter-spacing: 0.2rem;
+}
+
+button:active {
+    background-color: rgb(253, 184, 94);
+    box-shadow: 0 0 20px rgb(133, 111, 83);
+    transform: scale(1.1);
+    color: darkgray;
+}
