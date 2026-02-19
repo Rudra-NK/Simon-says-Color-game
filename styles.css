@@ -55,6 +55,7 @@ body {
 
 p {
     position: fixed;
+    width: 20rem;
     bottom: 10px;
     left: 50%;
     transform: translateX(-50%);
