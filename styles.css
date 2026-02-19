@@ -1,6 +1,7 @@
 body {
     text-align: center;
     background-color: antiquewhite;
+
 }
 
 .btn {
@@ -15,6 +16,15 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: -1.25rem;
+}
+
+.head {
+    margin-top: -0.25rem;
+}
+
+.play {
+    margin-top: -0.5rem;
 }
 
 .one {
